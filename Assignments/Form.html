@@ -14,44 +14,47 @@
 			<h2>St. John's church Of Uganda, Kirinya</h2>
 			<h3>New Christian Registration Form</h3>
 		</div>
-		
 
-		<form class="form" action="https://formspree.io/xeqrynve" method="POST" enctype="multipart/form-data">
-			<input type="text" placeholder="Full Name(Amannya)" name="_replyto">
-			<div class="radio-btn-group">
-				<p>Gender(Ekikula):</p>
-				<input class="radio" id="male" type="radio" name="gender">
-				<label for="male" style="padding-right: 40px;"> Male(Musajja)</label>
-				<input class="radio" id="female" type="radio" name="gender">
-				<label for="female">Female(Mukazi)</label>
-			</div>	
-			<input type="email" placeholder="Email: someone@example.com" name="email">
-			<input type="tel" placeholder="Contact(Essimu): 0712345689" name="contact">
-			<input type="text" placeholder="Address/Residence(Gyosula): Kirinya/Bukasa/Kireku/Kito.." name="_replyto">
-			<div>
-				<label for="DOB">Date Of Birth(Wazalibwa ddi?): 
-					<input type="date" id="DOB" placeholder="date" style="width:53%;" name="date_of_birth">
+		<form action="https://formspree.io/xeqrynve" method="POST" enctype="multipart/form-data">
+      <center><input type="text" placeholder="Full Name(Amannya)" name=name></center>
+      
+			<div class="form-group">
+				<label>Gender(Ekikula):</label>
+				<input class="radio" id="male" type="radio" name="gender" value="male">
+				<label for="male" style="padding-right: 40px;">Male(Musajja)</label>
+				<input class="radio" id="female" type="radio" name="gender" value="female">
+        <label for="female">Female(Mukazi)</label>
+        
+      </div>
+
+      <center><input type="email" placeholder="Email: someone@example.com" name="_replyto"></center>
+      <center><input type="tel" placeholder="Contact(Essimu): 0712345689" name="contact"></center>
+      <center><input type="text" placeholder="Address/Residence(Gyosula): Kirinya/Bukasa/Kireku/Kito.." name="address"></center>
+      <div class="form-group">
+				<label for="DOB">Date Of Birth(Wazalibwa ddi?) : 
+					<input type="date" id="DOB" placeholder="date" style="width:43%;" name="date_of_birth">
 				</label>
 			</div>
-			<input type="text" placeholder="Occupation(Omulimu gwo)" name="_replyto">
-			<div class="radio-btn-group">
-				<p>Marital Status(Obufumbo):</p>
-				<input class="radio" id="single" type="radio" name="marital_status">
-				<label for="single" style="padding-right: 40px;"> Male(Musajja)</label>
-				<input class="radio" id="female" type="radio" name="gender">
-				<label for="female">Female(Mukazi)</label>
+			<center><input type="text" placeholder="Occupation(Omulimu gwo)" name="occupation"></center>
+			<div class="form-group">
+        <label for="marital_status">Marital Status(Obufumbo):</label> 
+				<select id="marital_status" name="marital_status">
+          <option value="single">Single(Si Mufumbo)</option>
+          <option value="ch_marriage">Church Marriage(Mufumbo mu Church)</option>
+          <option value="tr_marriage">Traditional Marriage</option>
+          <option value="cv_marriage">Civil Marriage(Mufumbo mu Kkoti)</option>
+          <option value="widow">Widow/Widower(Namwandu/Ssemwandu)</option>
+          <option value="separated">Separated/Divorced(Twayawukana)</option>
+        </select>
 			</div>
-			<input type="text" placeholder="Full Name(Amannya)" name="_replyto">
 
 			<div class="form-group">
-				<label>
-					Your file:
+				<label>Your image/photo(Ekifinanyi):
 					<input name="upload" type="file" accept="image/*">
 				</label>
-			</div>
-			<div>
-				<button type="submit">Send</button>
-			</div>
+      </div>
+      <center><button class="reg-btn" type="submit">Send</button></center>
+			
 		</form>
 	</div>
 </body>
