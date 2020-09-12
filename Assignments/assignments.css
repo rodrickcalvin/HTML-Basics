@@ -4,14 +4,24 @@
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
-.form-card {
+.form-card{
+  background-color: #D4CDD5;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  margin-top: 20px;
-  max-width: 65%;
+  border-radius: 7px;
+  margin: auto;
+  margin-top: 50px;
+  max-width: 50%;
+  min-width: 45%;
+}
+form input{
+  width: 90%;
+  margin:10px 0 10px 0;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
 }
 form{
-  width: 70%;
+  margin: 44px;
 }
 h2{
   font-size: 2.1rem;
@@ -21,4 +31,17 @@ h3{
 }
 .heading{
   text-align: center;
+  padding-top: 30px;
+}
+.radio{
+  padding: 0;
+  margin: 0;
+  width: auto;
+}
+.radio-btn-group{
+  padding: 10px;
+}
+p{
+  padding-bottom: 8px;
+  font-weight: 5px;
 }
