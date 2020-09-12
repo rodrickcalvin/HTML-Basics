@@ -4,44 +4,64 @@
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
+body{
+  background: url("https://images.unsplash.com/photo-1508829040592-72f179f8a73f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1510&q=80");
+}
 .form-card{
   background-color: #D4CDD5;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 7px;
+  padding-bottom: 30px;
   margin: auto;
-  margin-top: 50px;
-  max-width: 50%;
-  min-width: 45%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  max-width: 55%;
+  min-width: 40%;
 }
 form input{
-  width: 90%;
+  width: 80%;
   margin:10px 0 10px 0;
-  padding: 5px;
+  padding: 7px;
   border-radius: 10px;
   border: none;
 }
-form{
-  margin: 44px;
+.heading{
+  text-align: center;
+  padding: 30px 0 30px 0;
 }
 h2{
   font-size: 2.1rem;
 }
 h3{
   font-size: 1.2rem;
+  padding: 10px 0 0 0;
 }
-.heading{
-  text-align: center;
-  padding-top: 30px;
+p{
+  padding-bottom: 1vh;
 }
 .radio{
   padding: 0;
   margin: 0;
   width: auto;
 }
-.radio-btn-group{
-  padding: 10px;
+.form-group{
+  padding-left: 5vw;
 }
-p{
-  padding-bottom: 8px;
-  font-weight: 5px;
+.reg-btn{
+  border-radius: 9px;
+  border: none;
+  text-align: center;
+  background-color: #731963;
+  padding: 8px 18px;
+  font-size: 18px;
+  font-weight: 550;
+  color: #E5E8E7;
+  margin: 0 auto;
+}
+select{
+  margin:10px 0 10px 0;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  max-width: 55%;
 }
