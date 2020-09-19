@@ -86,13 +86,13 @@ a {
 }
 .banner-content {
   margin-top: 6rem;
-  margin-left: 8rem;
-  margin-right: 8rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
   display: flex;
   flex-direction: row;
 }
 .banner-text {
-  max-width: 40rem;
+  max-width: 45rem;
 }
 .txt-1 {
   font-weight: 700;
@@ -125,14 +125,73 @@ a {
   margin-top: 5rem;
 }
 .banner-img {
-  padding-left: 9rem;
+  padding-left: 7rem;
 }
 .cropped {
   width: 550px;
   height: 427px;
   object-fit: cover;
 }
-
+.spacer {
+  height: 19vh;
+}
+.mnv {
+  padding-top: 20vh;
+  height: 100vh;
+  background-color: #f9fcff;;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mnv-img{
+  min-height: 39rem;
+  width: 40rem;
+  object-fit: cover;
+}
+.mnv-text {
+  margin: 0;
+  padding: 0;
+  background-color: #00387A;
+  min-height: 39rem;
+  width: 40rem;
+  padding: 4em 4em 0 4em;
+}
+.txt-5 {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 19px;
+  color: rgba(229, 238, 246, 0.59);
+}
+.txt-6 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: -0.05em;
+  color: #E5EEF6;
+}
+.txt-7 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #f9fcff;
+  padding-top: 1em;
+  padding-bottom: 1.5rem;
+}
+.txt-8 {
+  color: #E5EEF6;
+  font-size: 20px;
+  padding-left: 2rem;
+}
+.sign {
+  padding-top: 2.5rem;
+}
+.signature {
+  width: 10rem;
+  height: 5rem;
+  padding: 0 0 0 0;
+  margin: 0;
+}
 
 .container {
   display: flex;
