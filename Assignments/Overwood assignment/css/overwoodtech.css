@@ -137,7 +137,8 @@ a {
 }
 .mnv {
   padding-top: 20vh;
-  height: 100vh;
+  padding-bottom: 10vh;
+  /* height: 100vh; */
   background-color: #f9fcff;;
   display: flex;
   flex-direction: row;
@@ -145,9 +146,9 @@ a {
   align-items: center;
 }
 .mnv-img{
-  min-height: 39rem;
+  /* min-height: 39rem;
   width: 40rem;
-  object-fit: cover;
+  object-fit: cover; */
 }
 .mnv-text {
   margin: 0;
@@ -189,7 +190,7 @@ a {
 .signature {
   width: 10rem;
   height: 5rem;
-  padding: 0 0 0 0;
+  padding: 0;
   margin: 0;
 }
 
