@@ -9,6 +9,15 @@
   background: rgba(229, 238, 246, 1);
   z-index: 0;
 }
+.overwood {
+  font-weight: bold;
+}
+.over {
+  color: #23d1d3;
+}
+.wood {
+  color: #1e266d;
+}
 nav {
   min-height: 8vh;
   display: flex;
@@ -17,7 +26,9 @@ nav {
   box-shadow: 0px 0px 8px 0px rgba(97, 103, 167, 0.35) inset;
 }
 .logo {
-  margin-top: 0.4em;
+  display: flex;
+  font-size: 2rem;
+  margin-top: 0.1em;
   padding-left: 4.5em;
 }
 ul {
@@ -147,6 +158,7 @@ a {
   background: transparent;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .card-1 {
@@ -164,14 +176,14 @@ a {
   box-shadow: 5px 8px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px 4px 4px 4px;
 }
-.card-1-heading {
+.card-heading {
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   color: #0c0c13;
   padding: 0.5em 0.5em 0.5em 0;
 }
-.card-1-text {
+.card-text {
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
@@ -189,12 +201,12 @@ a {
   justify-content: center;
   align-items: center;
 }
-.mnv-img {
+.mnv .img {
   /* min-height: 39rem;
   width: 40rem;
   object-fit: cover; */
 }
-.mnv-text {
+.mnv .text {
   background-color: #00387a;
   height: 38.9rem;
   width: 40rem;
@@ -242,22 +254,69 @@ a {
   margin-bottom: 3rem;
 }
 .six-things-cards {
-  /* padding: 0 6rem 5rem 6rem; */
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .card-2 {
   width: fit-content;
-  max-width: 50em;
-  height: fit-content;
-  /* max-height: 12em; */
+  max-width: 26em;
+  max-height: 17em;
   padding: 2.5em;
-  /* margin: 1em; */
+  margin: 1em;
   background: #f8f8fb;
   border: 1px solid rgba(0, 0, 0, 0.23);
   box-sizing: border-box;
   box-shadow: 5px 8px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px 4px 4px 4px;
+}
+.card-2:hover{
+  background-color: #1E266D;
+}
+.card-2:hover h3{
+  color: #fafafa;
+}
+.card-2:hover p{
+  color: #fafafa;
+}
+.card-2:hover a{
+  color: #23d1d3;
+}
+.read-more {
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 19px;
+  color:rgba(12, 12, 19, 0.45)
+}
+.products {
+  padding: 6rem;
+  background: #f2f3fd;
+}
+.products .rect {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fafafa;
+  width: fit-content;
+}
+.products .rect .card-3 {
+  width: fit-content;
+  height: fit-content;
+  max-width: 27.7rem;
+  max-height: 14em;
+  padding: 2.5em;
+  margin: 0.2em;
+  box-sizing: border-box;
+  border-radius: 4px 4px 4px 4px;
+  background-color: #F9F5F0;
+}
+.card-text span {
+  margin: 0;
+  padding: 0;
+}
+.testimonials {
+
 }
 
 .container {
