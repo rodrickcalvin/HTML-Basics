@@ -171,7 +171,6 @@ a {
   margin: 1em;
   flex-direction: column;
   background: #f8f8fb;
-  border: 1px solid rgba(0, 0, 0, 0.23);
   box-sizing: border-box;
   box-shadow: 5px 8px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px 4px 4px 4px;
@@ -265,7 +264,6 @@ a {
   padding: 2.5em;
   margin: 1em;
   background: #f8f8fb;
-  border: 1px solid rgba(0, 0, 0, 0.23);
   box-sizing: border-box;
   box-shadow: 5px 8px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px 4px 4px 4px;
@@ -359,7 +357,7 @@ a {
 }
 .divider {
   border-bottom: 0.2rem solid #23D1D3;
-  padding: 0.7rem 0;
+  padding: 0.6rem 0;
 }
 .scroll {
   flex-direction: column;
@@ -372,6 +370,81 @@ a {
 .scroll:hover {
   background-color: #9ee1e2cc;
 }
+.next-steps {
+  background-color: #f7f5fa;
+  padding: 6.5rem;
+}
+.next-steps .rect {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fafafa;
+  width: fit-content;
+}
+.next-steps .rect .card-5 {
+  display: flex;
+  flex-direction: column;
+  width: 27rem;
+  height: 10em;
+  padding: 1.5em;
+  margin: 0.2em;
+  box-sizing: border-box;
+  border-radius: 4px 4px 4px 4px;
+  background-color: #f8f1e7;
+  color: #00387a;
+}
+.blog {
+  padding: 6rem;
+}
+.blog-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: fit-content;
+}
+.blog-body .card-6 {
+  display: flex;
+  flex-direction: column;
+  width: 26rem;
+  height: 36rem;
+  align-self: center;
+  margin: 0.6em;
+  border-radius: 4px 4px 4px 4px;
+  background-color: #fbfbfb;
+}
+.blog-body .card-6 .blog-img {
+  height: 18rem;
+  border-radius: 4px 4px 0 0;
+}
+time {
+  font-size: 0.1rem;
+  color:rgba(12, 12, 19, 0.45);
+}
+.blog-body .card-6-body{
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  height: fit-content;
+  padding: 1.9em;
+}
+footer {
+  background: #00387a;
+  color: #fff;
+}
+footer .col {
+  padding: 1.3rem;
+  box-sizing: border-box;
+
+}
+footer .col a {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
 .container {
   display: flex;
   flex-direction: column;
